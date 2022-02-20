@@ -19,4 +19,8 @@ function makeMan(man){
     return man.firstName + " " + man.lastName
 }
 
+function makeWord(word){
+    return word.firstName + " " + word.lastName
+}
+
 console.log(person.display())
