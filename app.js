@@ -15,8 +15,12 @@ function makeHuman(human){
     return human.firstName + " " + human.lastName
 }
 
-function makeHuman(human){
-    return human.firstName + " " + human.lastName
+function makeMan(man){
+    return man.firstName + " " + man.lastName
+}
+
+function makeWord(word){
+    return word.firstName + " " + word.lastName
 }
 
 console.log(person.display())
