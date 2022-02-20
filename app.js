@@ -11,4 +11,8 @@ function makePerson(person){
     return person.firstName + " " + person.lastName
 }
 
+function makeHuman(human){
+    return human.firstName + " " + human.lastName
+}
+
 console.log(person.display())
