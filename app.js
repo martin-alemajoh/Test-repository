@@ -7,4 +7,8 @@ const person = {
     } 
 }
 
+function makePerson(person){
+    return person.firstName + " " + person.lastName
+}
+
 console.log(person.display())
